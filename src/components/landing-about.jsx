@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../src/App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
