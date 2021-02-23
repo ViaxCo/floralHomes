@@ -157,7 +157,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <a
-                                    class='carousel-control-prev carousel-control'
+                                    class='carousel-control carousel-control__prev'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='prev'
@@ -173,7 +173,7 @@ const Testimonial = () => {
                                     <span class='sr-only'>Previous</span>
                                 </a>
                                 <a
-                                    class='carousel-control-next carousel-control'
+                                    class='carousel-control carousel-control__next'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='next'
