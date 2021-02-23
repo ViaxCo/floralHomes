@@ -42,14 +42,10 @@ const Testimonial = () => {
                                         <div>
                                             <div>
                                                 <div
-                                                    className='col-1 p-3 text-center d-block mx-auto p- text-light'
-                                                    style={{
-                                                        backgroundColor:
-                                                            'goldenrod',
-                                                        borderRadius: '50%',
-                                                    }}
+                                                    className='testimonial-quote'
+                                                   
                                                 >
-                                                    <FaQuoteRight />
+                                                <FaQuoteRight className='testimonial-quote__item'/>
                                                 </div>
                                                 <div
                                                     className='col-12'
@@ -157,7 +153,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <a
-                                    class='carousel-control carousel-control__prev'
+                                    class='carousel-control__prev'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='prev'
@@ -173,7 +169,7 @@ const Testimonial = () => {
                                     <span class='sr-only'>Previous</span>
                                 </a>
                                 <a
-                                    class='carousel-control carousel-control__next'
+                                    class='carousel-control__next'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='next'

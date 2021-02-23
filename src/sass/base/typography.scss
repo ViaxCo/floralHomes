@@ -169,12 +169,10 @@
 
 //ADDED STYLES
 
-.row { 
+.row {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
-
-
 
 .missionSate {
     &__img {
@@ -215,7 +213,45 @@
     }
 }
 
-.carousel-control{
-    background-color: green;
-    color: blue;
+.carousel-control__prev,
+.carousel-control__next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
 }
+
+.carousel-control__next {
+    right: 0;
+
+    @include respond(smaller-phone) {
+        padding-left: 2rem;
+    }
+}
+.carousel-control__prev {
+    @include respond(smaller-phone) {
+        padding-right: 2rem;
+    }
+}
+
+.testimonial-quote {
+    background: goldenrod;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: fit-content;
+
+    &__item {
+        margin: 1rem;
+        color: #fff;
+    }
+}
+
+

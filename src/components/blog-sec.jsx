@@ -3,7 +3,7 @@ import React from "react";
 const BlogPlate = ({ tag, header, img }) => {
   return (
     <>
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card">
         <img className="card-img-top" src={img} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">{tag}</h5>
