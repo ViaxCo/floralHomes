@@ -6,10 +6,10 @@ const NavBar = () => {
         <nav
             className='navbar navbar-expand-lg navbar-dark'
             style={{
-                paddingTop: '1%',
+                paddingTop: '3%',
                 paddingBottom: '1%',
                 paddingLeft: '50px',
-                paddingRight: '80px',
+               // paddingRight: '80px',
             }}
         >
             <img

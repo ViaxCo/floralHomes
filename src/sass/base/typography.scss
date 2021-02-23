@@ -204,7 +204,7 @@
             height: 92vh;
         }
         @include respond(smaller-phone) {
-            padding-top: 45%;
+            padding-top: 35%;
         }
         @include respond(smallest-phone) {
             padding-top: 30%;
