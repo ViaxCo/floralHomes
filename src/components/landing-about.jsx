@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../src/App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -11,7 +10,8 @@ const LandingAbout = () => {
             <div className='container-fluid landing-about-marg'>
                 <div className='row' data-aos="fade-right">
                     <div className='col-md-5 mx-auto p-3'>
-                        <img src='https://www.florahomesgc.com/images/aaa.jpg' style={{width: '100%', height:'50vh'}}/>
+                        <img src='https://www.florahomesgc.com/images/aaa.jpg' alt='' className='missionSate__img'
+/>
                     </div>
                     <div className='col-md-5 mx-auto p-3'>
                         <p className='h5 text-branding font-weight-bold'>WHY WE GET</p>
