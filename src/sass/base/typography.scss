@@ -169,11 +169,17 @@
 
 //ADDED STYLES
 
-  .row{
-    
-    margin-right: 0 !important; 
+.row { 
+    margin-right: 0 !important;
     margin-left: 0 !important;
-  }
+}
+
+.custom {
+    &__row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
 
 .missionSate {
     &__img {
@@ -181,7 +187,6 @@
         width: 100%;
         object-fit: cover;
     }
-
 }
 
 .section {

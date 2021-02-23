@@ -28,9 +28,9 @@ const Testimonial = () => {
                     </p>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row custom__row'>
                 <div className='container' style={{ marginTop: '2%' }}>
-                    <div className='row'>
+                    <div className='row custom__row'>
                         <div className='col-10 d-block mx-auto'>
                             <div
                                 id='carouselExampleControls'
