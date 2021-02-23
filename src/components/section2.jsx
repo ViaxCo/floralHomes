@@ -9,17 +9,17 @@ const Section2 = () => {
         <div className='container-fluid landing-about-marg background'>
             <div className='row'>
                 <div
-                    className='col-md-66 p-3'
+                    className='col-md-6 p-3'
                     data-aos='fade-up-right'
                 >
                     <img
                         src='https://www.florahomesgc.com/images/app-mockup.png'
                         alt='phone img'
-                        style={{ width: '100%', objectFit: 'contain' }}
+                        style={{ width: '100%', objectFit: 'contain', height: '80vh' }}
                     />
                 </div>
-                <div className='col-6 p-3'>
-                    <p className='h2 text-light font-weight-bold text-center'>
+                <div className='col-md-6 p-3 section__center'>
+                    <p className='h2 text-light font-weight-bold text-center' >
                         18 Real Estate Mistakes That Make People Lose Money In
                         Property Investment.
                     </p>
@@ -28,7 +28,7 @@ const Section2 = () => {
                         third party claimant and other losses in Nigeria Real
                         Estate.
                     </p>
-                    <button className='mt-3 btn btn-primary'>Access now</button>
+                    <button className='mt-3 btn btn-primary section__btn'>Access now</button>
                 </div>
             </div>
         </div>
