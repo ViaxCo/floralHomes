@@ -9,13 +9,13 @@ const Section2 = () => {
         <div className='container-fluid landing-about-marg background'>
             <div className='row'>
                 <div
-                    className='col-md-66 p-3 text-center'
+                    className='col-md-66 p-3'
                     data-aos='fade-up-right'
                 >
                     <img
                         src='https://www.florahomesgc.com/images/app-mockup.png'
-                        alt='image of phone'
-                        style={{ width: '100%', height: '80vh' }}
+                        alt='phone img'
+                        style={{ width: '100%', objectFit: 'contain' }}
                     />
                 </div>
                 <div className='col-6 p-3'>

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../ '
 import Carousel from './carousel'
 
 const HeroSection = () => {

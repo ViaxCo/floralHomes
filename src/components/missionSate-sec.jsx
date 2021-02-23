@@ -13,10 +13,10 @@ const MissionStatement = () => {
         >
             <div className='row'>
                 <div className='col-md-1'></div>
-                <div className='col-md-4'>
+                <div className='col-md-5'>
                     <p className='h6 text-branding'>PURPOSE</p>
                     <p className='h2 font-weight-bold'>Our Promise To You</p>
-                    <ul style={{ listStyleType: 'square' }}>
+                    <ul>
                         <li className='mission-list-items'>
                             Providing 100% done-for-you real estate services to
                             existing and aspiring property investors.
@@ -38,21 +38,19 @@ const MissionStatement = () => {
                         Learn more...
                     </button>
                 </div>
-                <div className='col-md-1'></div>
-                <div className='col-md-4'>
-                    <div style={{}}>
+                <div className='col-md-5'>
+                    
+                    <div>
                         <img
                             src='https://www.florahomesgc.com/images/aaa.jpg'
-                            className='image-width shadow'
+                            className='missionSate__img'
                             alt=''
-                            style={{
-                                width: '100%',
-                                height: '60vh',
-                                borderRadius: '50%',
-                            }}
+                       
                         />
                     </div>
                 </div>
+                <div className='col-md-1'></div>
+
             </div>
         </div>
     )

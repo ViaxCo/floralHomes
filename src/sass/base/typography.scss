@@ -171,3 +171,15 @@
     width: 25%
   }
 }
+
+
+//ADDED STYLES
+
+.missionSate {
+
+  &__img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+  }
+}
