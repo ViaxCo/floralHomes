@@ -13,7 +13,7 @@ const MissionStatement = () => {
         >
             <div className='row'>
                 <div className='col-md-1'></div>
-                <div className='col-md-5'>
+                <div className='col-md-5 missionSate__row'>
                     <p className='h6 text-branding'>PURPOSE</p>
                     <p className='h2 font-weight-bold'>Our Promise To You</p>
                     <ul>
