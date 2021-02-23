@@ -28,9 +28,9 @@ const Testimonial = () => {
                     </p>
                 </div>
             </div>
-            <div className='row custom__row'>
-                <div className='container' style={{ marginTop: '2%' }}>
-                    <div className='row custom__row'>
+            <div>
+                <div style={{ marginTop: '2%' }}>
+                    <div>
                         <div className='col-10 d-block mx-auto'>
                             <div
                                 id='carouselExampleControls'
@@ -39,8 +39,8 @@ const Testimonial = () => {
                             >
                                 <div class='carousel-inner'>
                                     <div class='carousel-item active'>
-                                        <div className='container-fluid'>
-                                            <div className='row'>
+                                        <div>
+                                            <div>
                                                 <div
                                                     className='col-1 p-3 text-center d-block mx-auto p- text-light'
                                                     style={{
@@ -157,7 +157,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <a
-                                    class='carousel-control-prev'
+                                    class='carousel-control-prev carousel-control'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='prev'
@@ -173,7 +173,7 @@ const Testimonial = () => {
                                     <span class='sr-only'>Previous</span>
                                 </a>
                                 <a
-                                    class='carousel-control-next'
+                                    class='carousel-control-next carousel-control'
                                     href='#carouselExampleControls'
                                     role='button'
                                     data-slide='next'
